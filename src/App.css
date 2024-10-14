@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* src/App.css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.date-picker-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.date-picker-container label {
+  margin-right: 10px;
+}
+
+.charts-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chart {
+  flex: 1;
+  margin: 0 10px;
+}
+
+/* src/App.css */
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
